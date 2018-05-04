@@ -19,7 +19,7 @@ public class BaseTest {
 	public void testMagento() throws InterruptedException {
 		// TODO Auto-generated method stub
 
-		WebDriver driver = new InternetExplorerDriver();
+		WebDriver driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://magento.com");
